@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Name — Personal Site</title>
+    <meta name="description" content="Personal website with links and downloadable files." />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="brand">
+          <div class="logo-dot" aria-hidden="true"></div>
+          <span class="brand-name">Your Name</span>
+        </div>
+        <nav class="site-nav">
+          <a href="#about">About</a>
+          <a href="#links">Links</a>
+          <a href="#downloads">Downloads</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Building delightful products with a focus on craft
+          </h1>
+          <p class="hero-subtitle">
+            I’m a product-minded engineer creating fast, reliable experiences. I care about polish, accessibility, and real-world impact.
+          </p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="uploads/resume.pdf" download>
+              Download resume
+            </a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-meta">
+            <span class="tick">Shipping</span>
+            <span class="tick">Accessible</span>
+            <span class="tick">Performant</span>
+            <span class="tick">Secure</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img id="profile-photo" src="assets/img/profile-placeholder.svg" alt="Profile" />
+        </div>
+      </div>
+    </section>
+
+    <main class="container main-grid">
+      <section id="about" class="card">
+        <h2>About</h2>
+        <p>
+          I’m an engineer and designer who enjoys shipping pragmatic, high-quality software. I blend frontend craft with backend reliability, and I love working on developer experience and product polish.
+        </p>
+      </section>
+
+      <section id="links" class="card">
+        <h2>Links</h2>
+        <p>Profiles, projects, and resources I maintain.</p>
+        <ul id="links-list" class="item-list" aria-live="polite"></ul>
+      </section>
+
+      <section id="downloads" class="card">
+        <h2>Downloads</h2>
+        <p>Grab my resume and sample resources.</p>
+        <ul id="files-list" class="item-list" aria-live="polite"></ul>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <ul class="contact-list">
+          <li>
+            <strong>Email:</strong>
+            <a id="contact-email" href="mailto:you@example.com">you@example.com</a>
+          </li>
+          <li>
+            <strong>Location:</strong>
+            <span id="contact-location">Your City, Country</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span id="copyright">© <span id="year"></span> Your Name</span>
+        <span class="spacer">•</span>
+        <span>Built with HTML, CSS, and a bit of JS</span>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+  </html>

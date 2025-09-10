@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Resume (PDF)",
+    "path": "uploads/resume.pdf",
+    "size": "~120 KB",
+    "type": "PDF",
+    "description": "Current resume with experience and selected work."
+  },
+  {
+    "title": "Case Study: Performance Tuning",
+    "path": "uploads/hello.txt",
+    "size": "1 KB",
+    "type": "TXT",
+    "description": "Sample write-up placeholder for a recent project."
+  }
+]

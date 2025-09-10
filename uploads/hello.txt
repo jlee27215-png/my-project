@@ -1,0 +1,6 @@
+Hello there!
+
+This is a tiny sample file to demonstrate downloads from your personal website.
+
+Feel free to delete this and add your own files to the `uploads/` folder.
+
